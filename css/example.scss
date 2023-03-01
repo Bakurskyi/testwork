@@ -1,0 +1,19 @@
+$text-white = #ffffff;
+
+.header {
+  &__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__nav {
+    a {
+      color: $text-white;
+      font-weight: 600;
+      font-size: 13px;
+      line-height: 16px;
+      text-transform: uppercase;
+      margin-left: 60px;
+    }
+  }
+}
